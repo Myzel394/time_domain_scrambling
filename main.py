@@ -33,7 +33,7 @@ def main() -> None:
 
 
             # Iterate over seconds
-            for i in range(0, int(metadata.nframes / 2), metadata.framerate):
+            for i in range(0, metadata.nframes, metadata.framerate):
                 second = frames[i:i + metadata.framerate]
 
                 # Split the second into parts
