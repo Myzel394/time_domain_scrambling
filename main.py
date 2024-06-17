@@ -17,7 +17,7 @@ def transpose_parts(parts: list[int]):
 
 def main() -> None:
     # Type _raw_wavefile as wave_read
-    with wave.open("./lasttime.wav") as _raw_wavefile:
+    with wave.open("./input.wav") as _raw_wavefile:
         with wave.open("output.wav", mode="wb") as write_file:
             wave_file: wave.Wave_read = _raw_wavefile
 
