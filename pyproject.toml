@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "time-scrambler"
+version = "0.1.0"
+description = ""
+authors = ["Myzel394 <50424412+Myzel394@users.noreply.github.com>"]
+readme = "README.md"
+# packages = [{include = "time_scrambler"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Wave = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
